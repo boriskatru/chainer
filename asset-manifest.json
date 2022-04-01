@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/chainer/static/css/main.e90c0e66.css",
+    "main.js": "/chainer/static/js/main.39aa6f94.js",
+    "static/media/offers_4.jpeg": "/chainer/static/media/offers_4.7a4dc93ae4504894f232.jpeg",
+    "static/media/offers_2.jpeg": "/chainer/static/media/offers_2.9e5e2a0d545e6912940d.jpeg",
+    "static/media/offers_1.jpeg": "/chainer/static/media/offers_1.c9538f902342868852f8.jpeg",
+    "static/media/footer_bg.jpg": "/chainer/static/media/footer_bg.29ac897018d304f82a79.jpg",
+    "static/media/offers_3.jpeg": "/chainer/static/media/offers_3.d7b944e7beeb2480a40a.jpeg",
+    "static/media/about_ppl_bg.png": "/chainer/static/media/about_ppl_bg.415e90dd998c183e2226.png",
+    "static/media/logo.svg": "/chainer/static/media/logo.4c86b62a353358ede9cbfdd12480b24c.svg",
+    "static/media/schema_bg.png": "/chainer/static/media/schema_bg.d792d4f0538f1e17b4a9.png",
+    "static/media/about_map_bg_test.png": "/chainer/static/media/about_map_bg_test.7a6fd026ad08ac7b4da6.png",
+    "static/media/info_4.svg": "/chainer/static/media/info_4.8ca7e07602d5a985b5d5f3d9b6d8d400.svg",
+    "static/media/info_2.svg": "/chainer/static/media/info_2.0022bf6bf9533351d6e7460f9bcd7dc2.svg",
+    "static/media/benefit_3.svg": "/chainer/static/media/benefit_3.489204da5b1466b89e1da0892749dd8d.svg",
+    "static/media/benefit_1.svg": "/chainer/static/media/benefit_1.9a6a31a29d1324e0da34b3688b16f4a4.svg",
+    "static/media/info_1.svg": "/chainer/static/media/info_1.bece37fc7b362d86e9affef35369ba78.svg",
+    "static/media/info_3.svg": "/chainer/static/media/info_3.f28b3451c4741e3c8f288914c19267fa.svg",
+    "static/media/benefit_2.svg": "/chainer/static/media/benefit_2.c80a130aa81ae0a6487defc218b61620.svg",
+    "static/media/wa.svg": "/chainer/static/media/wa.2479058c769f2fbf33c47c07433fcb66.svg",
+    "static/media/header_profile.svg": "/chainer/static/media/header_profile.3659dd0a773b6e23ff277788be89451e.svg",
+    "static/media/tg.svg": "/chainer/static/media/tg.cfe462c41e67d77dcd8a2e9503380f9c.svg",
+    "static/media/vk.svg": "/chainer/static/media/vk.e941a0c8d87ff6c2d375f9aecff18c9e.svg",
+    "static/media/mark.svg": "/chainer/static/media/mark.f9b40018a8c8c3e8a867.svg",
+    "index.html": "/chainer/index.html",
+    "static/media/benefit_toggler.svg": "/chainer/static/media/benefit_toggler.929c24c25ed18890607d27ceab0b1164.svg",
+    "static/media/burger.svg": "/chainer/static/media/burger.1025f00ff440660ab800658fca6ab5e5.svg",
+    "static/media/close.svg": "/chainer/static/media/close.ac639add261e60c47ea90974e236949f.svg",
+    "main.e90c0e66.css.map": "/chainer/static/css/main.e90c0e66.css.map",
+    "main.39aa6f94.js.map": "/chainer/static/js/main.39aa6f94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e90c0e66.css",
+    "static/js/main.39aa6f94.js"
+  ]
+}
