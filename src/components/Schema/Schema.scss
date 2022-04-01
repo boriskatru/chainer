@@ -1,0 +1,279 @@
+
+.schema {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.schema__title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-bottom: 220px;
+
+  color: #1c1c1c;
+
+  @media (max-width: 1480px) {
+    font-size: 40px;
+    margin-top: 220px;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  @media (max-width: 762px) {
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+
+  @media (max-width: 662px) {
+    font-size: 35px;
+
+    line-height: 44px;
+    text-align: center;
+  }
+
+  @media (max-width: 454px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  @media (max-width: 382px) {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  @media (max-width: 334px) {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.schema__line {
+  display: flex;
+  li {
+    list-style-type: none;
+    width: 33%;
+    float: left;
+    position: relative;
+    text-align: center;
+    .schema__part {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      span {
+        &:last-child {
+          width: 40%;
+          text-align: start;
+          margin-left: 15px;
+        }
+      }
+    }
+    .schema__second {
+      span {
+        &:last-child {
+          width: 60%;
+          text-align: start;
+          margin-left: 15px;
+        }
+      }
+    }
+    span {
+      &:first-child {
+        font-weight: 600;
+        font-size: 110px;
+        line-height: 110px;
+        text-transform: uppercase;
+        color: #6981ff;
+        @media (max-width: 1190px) {
+          font-size: 80px;
+        }
+
+        @media (max-width: 839px) {
+          font-size: 60px;
+          line-height: 44px;
+          text-align: center;
+        }
+
+        @media (max-width: 454px) {
+          font-size: 40px;
+          line-height: 40px;
+        }
+      }
+      &:last-child {
+        align-self: flex-end;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        text-transform: lowercase;
+        @media (max-width: 1190px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 839px) {
+          font-size: 18px;
+          line-height: 18px;
+        }
+
+        @media (max-width: 454px) {
+          font-size: 16px;
+          line-height: 16px;
+        }
+      }
+    }
+
+    &::before {
+      width: 34px;
+      height: 34px;
+      content: "";
+      line-height: 133px;
+      border: 3px solid #6981ff;
+      display: block;
+      text-align: center;
+      margin: 0 auto 3px auto;
+      border-radius: 50%;
+      position: relative;
+      z-index: 2;
+      background-color: #fff;
+    }
+    &::after {
+      width: 100%;
+      height: 2px;
+      content: "";
+      position: absolute;
+      background-color: #6981ff;
+      top: 17px;
+      left: -50%;
+      z-index: 0;
+    }
+
+    &:not(:nth-child(2)) {
+      .schema__part {
+        position: relative;
+        top: -200px;
+        left: 0;
+        z-index: 1;
+      }
+    }
+    &:last-child {
+      &::before {
+        background: #fff url("../../assets/svg_icons/mark.svg") no-repeat center
+          center;
+      }
+    }
+
+    &:first-child {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
+.schema__line_web {
+  @media (max-width: 762px) {
+    display: none;
+  }
+}
+
+.schema__line_mobile {
+  position: relative;
+  list-style: none;
+  display: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: calc(75%);
+    right: 0px;
+    top: 0;
+    background: #6981ff;
+    z-index: -1;
+    margin-top: 40px;
+  }
+  
+  li {
+    position: relative;
+    
+    
+    padding: 30px 0;
+    padding-right: 50px;
+    .schema__part {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+    span {
+      &:first-child {
+        font-weight: 600;
+        font-size: 110px;
+        line-height: 110px;
+        text-transform: uppercase;
+        color: #6981ff;
+        @media (max-width: 1190px) {
+          font-size: 80px;
+        }
+
+        @media (max-width: 839px) {
+          font-size: 60px;
+          line-height: 44px;
+          text-align: center;
+        }
+
+        @media (max-width: 454px) {
+          font-size: 40px;
+          line-height: 40px;
+        }
+      }
+      &:last-child {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        text-transform: lowercase;
+        @media (max-width: 1190px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 839px) {
+          font-size: 18px;
+          line-height: 18px;
+        }
+
+        @media (max-width: 454px) {
+          font-size: 16px;
+          line-height: 16px;
+        }
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      border: 3px solid #6981ff;
+      background-color: #fff;
+      width: 30px;
+      height: 30px;
+      top: 50%;
+      right: -14px;
+      transform: translateY(-50%);
+      border-radius: 100%;
+    }
+    &:last-child {
+      &::before {
+        background: #fff url("../../assets/svg_icons/mark.svg") no-repeat center
+          center;
+      }
+    }
+  }
+
+  @media (max-width: 762px) {
+    display: block;
+  }
+  
+}

@@ -1,0 +1,166 @@
+/** @format */
+
+.main__about_shadower {
+  filter: drop-shadow(80px 100px rgba(167, 167, 167, 0.2));
+}
+.main__about {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  min-height: 90vh;
+  background: linear-gradient(90deg, #6981ffb3 0%, #6981ff 44.62%),
+    url("../../assets/bg/about_ppl_bg.png") left / contain;
+  background-repeat: no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
+  @media (max-width: 1216px) {
+    background: linear-gradient(90deg, #6981ffb3 0%, #6981ff 44.62%);
+  }
+  @media (max-height: 600px) and (max-width: 1024px) {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  }
+  @media (max-width: 662px) {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  }
+}
+
+.main__about:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("../../assets/bg/about_map_bg_test.png") 90% 40% / auto;
+  background-repeat: no-repeat;
+  @media (max-width: 1216px) {
+    opacity: 0.1;
+    background: url("../../assets/bg/about_ppl_bg.png") left / cover,
+      linear-gradient(90deg, rgba(105, 129, 255, 0.7) 5.1%, #6981ff 49.73%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.main__about > * {
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+.main__schema {
+  padding: 150px 150px 300px 150px;
+  background: url("../../assets/bg/schema_bg.png") right, #f5f5f5;
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  height: auto;
+  -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+  @media (max-width: 940px) {
+    background-size: 80% 100%;
+  }
+  @media (max-width: 662px) {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 80px;
+    background-size: cover;
+    background-position: center;
+
+  }
+  @media (max-width: 374px) {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 40px;
+  }
+}
+
+.main__offers {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+}
+
+.main__offers_parts {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  .offers__part {
+    position: relative;
+    top: 68px;
+    z-index: -1;
+    width: 200px;
+    height: 120px;
+    -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+  }
+}
+
+.offers__part_first {
+  background: #6981ff;
+  left: -155px !important;
+  z-index: -1 !important;
+
+}
+.offers__part_second {
+  background: #4b61d6;
+  top: 0px !important;
+  left: -140px !important;
+  z-index: -2 !important;
+  @media (max-width: 662px) {
+    display: none;
+  }
+}
+.offers__part_third {
+  background: #e5e5e5;
+  top: -120px !important;
+  left: -190px !important;
+  z-index: -3 !important;
+}
+
+.main__footer_shadow {
+  filter: drop-shadow(30vw 45px 0 #4b61d6);
+  @media (max-width: 662px) {
+    filter: drop-shadow(30vw 0px 0 #4b61d6);
+  }
+}
+
+.main__footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  border: 1px solid #000000;
+  -webkit-clip-path: polygon(0 0, 100% 70%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 70%, 100% 100%, 0 100%);
+  background: url("../../assets/bg/footer_bg.jpg") 100% 50% / cover;
+  @media (max-width: 662px) {
+    -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+  }
+}
+
+.main__footer:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #000000;
+}

@@ -1,0 +1,33 @@
+
+.btn {
+  border-radius: 10px;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px 30px;
+  border: solid 2px #ffffff;
+  text-align: center;
+  cursor: pointer;
+  transition: ease 0.3s all;
+  &--outline {
+    background: none;
+    color: #ffffff;
+    &:hover {
+      opacity: 1;
+      background: #ffffff;
+      color: #4b61d6;
+    }
+  }
+  &--primary {
+    background: #ffffff;
+    color: #4b61d6;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &:active {
+    //
+  }
+}

@@ -1,0 +1,254 @@
+
+.benefits {
+  margin-bottom: 120px;
+}
+.benefits__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+  text-transform: uppercase;
+
+  color: #1c1c1c;
+  margin-bottom: 100px;
+
+  @media (max-width: 1190px) {
+    font-size: 40px;
+  }
+  
+  @media (max-width:  662px) {
+    font-size: 35px;
+    line-height: 44px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  @media (max-width:  454px) {
+    font-size: 32px;
+    line-height: 40px;
+    
+  }
+
+  @media (max-width:  382px) {
+    font-size: 28px;
+    line-height: 34px;
+    
+  }
+
+  @media (max-width:  334px) {
+    font-size: 25px;
+    line-height: 30px;
+    
+  }  
+}
+
+.benefits__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  @media (max-width:  662px) {
+    gap:40px;
+    align-items:center
+  }
+}
+
+.benefit__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.benefit__item_main {
+  flex: 0 0 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: linear-gradient(
+    93.89deg,
+    rgba(203, 211, 253, 0.05) 1.36%,
+    rgba(177, 190, 255, 0.05) 99.12%
+  );
+  box-shadow: 0px 0px 10px rgba(105, 129, 255, 0.15);
+
+  border-radius: 15px;
+  @media (max-width:  557px) {
+   
+    padding: 10px 25px;
+    
+  }
+  @media (max-width:  402px) {
+   
+    padding: 5px 18px;
+    
+  }
+}
+
+.benefit__item_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
+  span {
+    &:last-child {
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 42px;
+      color: #2b2b2b;
+      @media (max-width: 1190px) {
+        font-size: 30px;
+      }
+      
+      @media (max-width:  876px) {
+        font-size: 25px;
+        line-height: 28px;
+       
+      }
+    
+      @media (max-width:  633px) {
+        font-size: 20px;
+        line-height: 26px;
+        
+      }
+    
+      @media (max-width:  557px) {
+        font-size: 18px;
+        line-height: 24px;
+        gap:20px;
+        
+      }
+    
+      @media (max-width:  334px) {
+        font-size: 16px;
+        line-height: 20px;
+        
+      }  
+    }
+  }
+  @media (max-width:  557px) {
+   
+    gap:20px;
+    
+  }
+  @media (max-width:  402px) {
+   
+    gap:10px;
+    
+  }
+}
+
+.benefit__item_icon {
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 100%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &--orange {
+    background: linear-gradient(135.78deg, #e78c38 15.29%, #ffad62 84.37%);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.35),
+      -2px -2px 10px rgba(255, 255, 255, 0.8);
+  }
+  &--red {
+    background: linear-gradient(132.42deg, #d52828 15.24%, #ef4c4c 84.76%);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4), -2px -2px 10px #ffffff;
+  }
+  &--blue {
+    background: linear-gradient(132.12deg, #2436d5 15.67%, #475aff 84.28%);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4), -2px -2px 10px #ffffff;
+  }
+
+
+  @media (max-width:  633px) {
+   
+    min-width: 50px;
+    min-height: 50px;
+    img{
+      width: 40px;
+      height: 40px;
+    }
+    
+  }
+
+  @media (max-width:  557px) {
+   
+    min-width: 40px;
+    min-height: 40px;
+    img{
+      width: 30px;
+      height: 30px;
+    }
+    
+  }
+}
+
+.benefit__item_toggler {
+  cursor: pointer;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+  img{
+ @media (max-width:  633px) {
+  width: 20px;
+  height: 20px;
+ }
+ @media (max-width:  310px) {
+  width: 15px;
+  height: 15px;
+ }
+  }
+}
+
+.toggler_rotated {
+  transform: rotate(90deg);
+}
+
+.benefit__item_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.benefit__item_content--item {
+  margin-left: 10vw;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2b2b2b;
+  @media (max-width: 1190px) {
+    font-size: 22px;
+  }
+  
+  @media (max-width:  876px) {
+    font-size: 20px;
+   
+  }
+
+  @media (max-width:  633px) {
+    font-size: 18px;
+    
+  }
+
+  @media (max-width:  557px) {
+    font-size: 16px;
+    
+  }
+
+  @media (max-width:  334px) {
+    font-size: 14px;
+  }  
+  
+}
