@@ -8,7 +8,7 @@ const About = () => {
       <div className="about__content">
         <div className="about__main">
           <div className="about__title">
-            поможем восстановить нарушенные цепи поставок компаний
+            поможем восстановить нарушенные цепи поставок
           </div>
           <div className="about__description">Первые 3 запроса БЕСПЛАТНО</div>
           <div className="about__features">
